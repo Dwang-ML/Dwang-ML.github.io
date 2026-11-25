@@ -1,0 +1,104 @@
+
+        .one{
+        color:blue;
+    }
+        {
+            background-color: lightblue;
+            font-family: Arial;
+             padding-top: 100px;
+        }   
+        img {
+            border-radius: 10px;
+            transition: transform 0.5s;
+        }
+        img:hover {
+    transform: scale(1.1);
+}
+img {
+    width: 50%;
+    height: auto;
+}
+
+
+        .player {
+            background-color: white;
+            padding: 10px;
+            width: 80%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .t {
+            background-color:lightgreen;
+            padding: 15px;
+            margin: 15px;
+            border-radius: 20px;
+        }
+        .t:hover {
+        color: lightslategray;
+        }
+        .rule {
+            background-color:lightblue;
+            padding: 15px;
+            margin: 15px;
+            border-radius: 20px;
+        }
+        .rule:hover {
+        color: grey;
+        }
+        .page1 {
+         background-color: lightblue;
+        }
+
+        .page2 {
+    background-color: grey;
+}
+     button {
+    background-color: pink;
+    transition: 0.5s;
+     }
+     button:hover {
+    background-color: lightblue;
+    transform: scale(1.1);
+}
+.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightblue;
+    z-index: 100;
+    padding: 10px;
+}
+
+body {
+    padding-top: 100px;
+}
+.page3{
+    background-color: lightblue;
+float: left;
+}
+.martin1{    
+    border: 0.5px solid black;
+}
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.col {
+    width: 30%;
+}
+.rol{
+    width:30%;
+}
+.col {
+    float: left;
+   }
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
